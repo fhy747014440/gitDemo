@@ -4,6 +4,24 @@ public class User {
 
     private String username;
     private Integer age;
+    private String email;
+    private String sex;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
 
     public String getUsername() {
         return username;
